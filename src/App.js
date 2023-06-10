@@ -60,6 +60,7 @@ const App = ({
       </div>
       <div className="box">
         <button className="sh-green" onClick={() => handleNumberClick("0")}>0</button>
+        <button className="sh-green" onClick={() => handleNumberClick(".")}>.</button>
         <button className="rav" onClick={() => handleCalculateClick()}>=</button>
         <button className="sh-blue" onClick={() => handleOperatorClick("/")}>/</button>
       </div>
